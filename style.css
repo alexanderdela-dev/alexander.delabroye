@@ -1,0 +1,303 @@
+
+header {
+    background-color: #8fb78e;
+    padding: 1.5rem 0;
+    min-height: 180px;
+    border-radius: 6px;
+}
+
+header img {
+    display: block;
+    margin: 0 auto 1rem;
+    max-width: 120px;
+}
+
+main {
+    max-width: 1100px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 8px;
+}
+
+body {
+    background-color: #f1f6f1;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #161616;
+    line-height: 1.6;
+}
+section { 
+    margin-bottom: 4rem;
+}
+
+h1 {
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 2.4rem;
+    color: black;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-family: "Arial", Helvetica, sans-serif;
+    font-size: 1.8rem;
+    color: black;
+    margin-bottom: 0.4em;
+}
+
+h3 {
+    font-family: "Verdana", sans-serif;
+    font-size: 1.3rem;
+    color: black;
+    margin-bottom: 0.3em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+figure {
+    margin: 2rem 0;
+}
+
+figcaption {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 0.5rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    background-color: #8fb78e;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+
+    text-transform: uppercase;
+    display: block;
+    padding: 0.75rem 1.25rem;
+    text-decoration: none;
+    border-radius: 4px;
+     font-weight: 600;
+}
+
+nav a:hover {
+    background-color: #008241;
+}
+
+nav a:active {
+    background-color: #184c00;
+}
+
+.spotlight {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid #d9e6d9;
+    max-width: 900px;
+    margin: 2rem;
+}
+
+
+.spotlight-image {
+    flex: 0 1 60%;
+}
+
+.spotlight-content {
+    flex: 1;
+    max-width: 30%;
+}
+
+.menu-stuk {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+    padding: 1.5rem;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid #d9e6d9;
+    align-items: center;
+}
+
+.menu-stuk img {
+    flex: 0 0 200px;
+    max-width: 200px;
+    border-radius: 6px;
+    height: 140px;
+    object-fit: cover;
+}
+
+.menu-content {
+    flex: 1;
+    max-width: 60ch;
+}
+
+.menu-content p {
+    margin-top: 0.5rem;
+}
+
+.prijs {
+    font-weight: bold;
+    margin-top: 0.75rem;
+    color: #5f7b5c;
+}
+
+.blog-stuk {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+    padding: 1.5rem;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid #d9e6d9;
+    align-items: center;
+}
+
+.blog-stuk img {
+    flex: 0 0 30%;
+    width: 200px;
+    border-radius: 6px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.blog-content  {
+        flex: 1;
+    max-width: 60ch;
+}
+
+.about-flex {
+    display: flex;
+    gap: 4rem;
+    margin-top: 4rem;
+}
+
+.about-flex section {
+    flex: 1;
+    background-color: rgb(216, 216, 216);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.contact-flex {
+    display: flex;
+    gap: 4rem;
+    margin-top: 2rem;
+    box-sizing: border-box;
+
+    padding: 3rem;
+}
+
+.contact-info{
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    border: 2px solid #cbcbcb;
+    max-width: 100%;
+    flex: 1;
+}
+
+.contact-form {
+    flex: 1;
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    border: 1px solid #d9e6d9;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 6px;
+    border: 1px solid #d9e6d9;
+    margin: 3rem auto;
+}
+
+form label {
+    width: 100%;
+    font-weight: bold;
+}
+
+form input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 320px;
+}
+
+form button {
+    align-self: flex-end;
+    padding: 0.6rem 1.4rem;
+    background-color: #5f7b5c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 3rem;
+    padding: 1.5rem;
+    background-color: #5f7b5c;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    opacity: 0.9;
+    border-radius: 6px;
+}
+
+footer a {
+    color: #004284;
+    text-decoration: none;
+}
+
+footer a:hover {
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .spotlight {
+    flex-direction: column;
+    }
+
+    .spotlight-image {
+    width: 100%;
+    }
+
+    .spotlight-content {
+    max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-flex {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-flex {
+        flex-direction: column;
+    }
+}
